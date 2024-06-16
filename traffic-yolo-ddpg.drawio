@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" modified="2024-06-16T03:09:43.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zyHoukBIo3Mm8reHXNS4" version="24.5.4" type="device">
+  <diagram name="Page-1" id="04gQckV_ftPmeAZXTxng">
+    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YbeLXUqcXQGSnMvj45G--1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--2" target="YbeLXUqcXQGSnMvj45G--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--4" target="YbeLXUqcXQGSnMvj45G--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--4" value="CCTV - real time capture / Input video" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="120" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--6" target="YbeLXUqcXQGSnMvj45G--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--6" value="Yolov8 detecting the vehicles and the traffic density" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="220" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--8" target="YbeLXUqcXQGSnMvj45G--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--8" value="Update the detected vehicles and traffic density to DDPG agent as representation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="320" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--10" target="YbeLXUqcXQGSnMvj45G--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--10" value="DDPG select the action to update green signal timing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="420" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--11" value="Rough Idea" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--12" value="Details -&amp;gt; 4 Interaction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--14" target="YbeLXUqcXQGSnMvj45G--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--14" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537" y="40" width="84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--16" target="YbeLXUqcXQGSnMvj45G--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--16" value="Load tkinterApp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="120" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--18" target="YbeLXUqcXQGSnMvj45G--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--18" value="CCTV - real time capture / Input video (Threading)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--20" target="YbeLXUqcXQGSnMvj45G--43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--20" value="Yolov8 detecting vehicles and traffic density" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="420" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--22" target="YbeLXUqcXQGSnMvj45G--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--22" value="Load DDPG model (replay_buffer.npy, actor.pth, critic.pth)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="600" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--24" target="YbeLXUqcXQGSnMvj45G--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--24" value="Update the detected vehicles and traffic density to DDPG agent as representation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="690" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--27" target="YbeLXUqcXQGSnMvj45G--56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--27" target="YbeLXUqcXQGSnMvj45G--18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1010" />
+              <mxPoint x="320" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--27" value="Exit?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="970" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--28" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1075" width="84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--29" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--33" target="YbeLXUqcXQGSnMvj45G--35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--33" target="YbeLXUqcXQGSnMvj45G--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--33" value="Input?&lt;br&gt;CCTV / videos" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505.5" y="300" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--35" target="YbeLXUqcXQGSnMvj45G--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--35" value="Default timing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--36" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="628" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--37" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="467" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--39" target="YbeLXUqcXQGSnMvj45G--4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="162" y="605" />
+              <mxPoint x="291" y="605" />
+              <mxPoint x="291" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--39" value="Store the experience in the Replay Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="524.5" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--43" target="YbeLXUqcXQGSnMvj45G--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--43" target="YbeLXUqcXQGSnMvj45G--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--43" value="Existing DDPG model" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="505" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--46" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--48" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="515.5" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--49" target="YbeLXUqcXQGSnMvj45G--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--49" value="DDPG select the action to update green signal timing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="780" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--51" target="YbeLXUqcXQGSnMvj45G--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--51" value="Store the experience in the Replay Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="870" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YbeLXUqcXQGSnMvj45G--56" target="YbeLXUqcXQGSnMvj45G--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--56" value="Save DDPG model (replay_buffer.npy, actor.pth, critic.pth)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.5" y="1070" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YbeLXUqcXQGSnMvj45G--58" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

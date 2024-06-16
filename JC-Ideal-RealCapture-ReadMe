@@ -1,0 +1,10 @@
+Explanation for live cam:
+
+[1] Enable Live Cam: 
+        To use the live camera for a junction, set <<use_live_cam>> to True and provide the correct <<live_cam_index>>.
+    Example: For the first junction, the live camera is enabled with <<live_cam_index>> <<0>>.
+
+[2] Video Fallback: 
+        If <<use_live_cam>> is <<False>>, the system will use the provided video path.
+
+[3] This setup allows you to toggle between live camera feeds and video files for each junction. Adjust the <<use_live_cam>> and <<live_cam_index>> settings as needed for your specific setup.
